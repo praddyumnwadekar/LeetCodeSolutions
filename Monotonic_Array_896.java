@@ -25,5 +25,20 @@ class Solution {
             }
         }
         return true;
+
+    }}
+
+
+
+public class Monotonic_Array_896{
+
+    public static void main(String args[]){
+        Solution solution = new Solution();
+        int arr[] = {1,2,2,3,4,5};
+        System.out.println(solution.isMonotonic(arr));
+        
+        
+        int arr1[] = {1,2,2,3,4,5};
+        System.out.println(solution.isMonotonic(arr1));
     }
 }
